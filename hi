@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import skilstak.colors as c
-from emoji import smiley
 
 print(r.red + 'hi, what is your name?')
 name = input('> ')
-print(c.green + "nice to meet you" + name + "!" + smiley) 
+print(c.green + "nice to meet you" + name + "!") 
